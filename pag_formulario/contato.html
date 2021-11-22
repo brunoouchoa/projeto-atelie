@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>A vestimenta em nossa vida</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body class="flexbox">
+    <header>
+        <h1 id="title">A vestimenta em nossa vida </h1>
+        <p id="description">Tentar entender qual o seu tipo de roupa favorita</p>
+    </header>
+
+    <main>
+        <form id="survey-form">
+           
+            <label for="name" id="name-label"> Nome</label>
+            <input type="text" id="name" required placeholder="Coloque seu nome">
+
+            <label for="email" id="email-label"> Email</label>
+            <input type="email" id="email" required placeholder="seuemail@dominio.com">
+
+            <label for="number" id="number-label"> Número da vestimenta</label>
+            <input type="number" id="number" required placeholder="number" min="20" max="60"> 
+
+        
+            <legend>Qual sua intenção de confecção ? </legend>
+                <select id="dropdown">
+                    <option>Uniformes escolares</option>
+                    <option>Roupas temáticas</option>
+                    <option>Roupas masculinas</option>
+                    <option>Roupas femininas</option>
+                    <option>Roupas de academia</option>
+            </select>
+
+            <legend>Recomendaria meu serviço para outras pessoas ?</legend>
+
+            <label for="radio-Sim"><input type="radio" name="recomendaçao" value="Sim">Sim</label>
+
+            <label for="radio-Nao"><input type="radio" name="recomendaçao" value="Nao">Não</label>
+
+            <legend>Qual seu tipo de tecido favorito ?</legend>
+                <select>
+                    <option>Linho</option>
+                    <option>Jeans</option>
+                    <option>Lycra</option>
+                    <option>Moleton</option>
+                </select>
+
+            <legend>O que você mais gostou em nosso serviço</legend>
+            <label><input type="checkbox" value="atendimento">Atendimento</label>
+            <label><input type="checkbox" value="detalhamento">Detalhamento do serviço</label>
+            <label><input type="checkbox" value="eficiencia">Eficiência na entrega</label>
+            <label><input type="checkbox" value="nada">Nenhuma das alternativas</label>
+            
+            
+            <label for="Mensagem" id="mensagem-label">Deixe sua sugestão para sempre melhorarmos nosso atendimento.</label>
+            <textarea cols="70" rows="10" id="Mensagem"></textarea>
+
+            <input type="submit" value="Enviar Formulário" id="submit">
+           
+        </form>
+    </main>
+    
+</body>
+
+<footer>
+       <p class="copyright">&copy; Copyright Ateliê Katia Simões. Todos os direitos Reservados. </p>
+</footer>
+</html>
