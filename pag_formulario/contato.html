@@ -7,13 +7,14 @@
         <title>A vestimenta em nossa vida</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="formstyle.css">
+        <link rel="stylesheet" href="contstyle.css">
     </head>
 
     <body class="flexbox">
         <header>
             
             <div class="cabeçalho">
+                <h1><img src="imagemcabeçalho.png"></h1>
                 <nav>
                     <ul>
                         <li><a href="principal.html">Home</a></li>
@@ -27,20 +28,20 @@
         
         
         <main>
-            <form id="survey-form">
+            <form class="survey-form">
                 
-                <label for="name" id="name-label"> Nome</label>
-                <input type="text" id="name" required placeholder="Coloque seu nome">
+                <label for="name" class="name-label"> Nome</label>
+                <input type="text" id="name" class="input-padrao" required placeholder="Coloque seu nome">
 
-                <label for="email" id="email-label"> Email</label>
-                <input type="email" id="email" required placeholder="seuemail@dominio.com">
+                <label for="email" class="email-label"> Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-                <label for="number" id="number-label"> Número da vestimenta</label>
-                <input type="number" id="number" required placeholder="number" min="20" max="60"> 
+                <label for="number" class="number-label"> Número da vestimenta</label>
+                <input type="number" id="number" class="input-padrao" required placeholder="number" min="20" max="60"> 
 
                 
-                <legend>Qual sua intenção de confecção ? </legend>
-                    <select id="dropdown">
+                <legend class="legenda">Qual sua intenção de confecção ? </legend>
+                    <select class="dropdown">
                         <option>Uniformes escolares</option>
                         <option>Roupas temáticas</option>
                         <option>Roupas masculinas</option>
@@ -48,13 +49,13 @@
                         <option>Roupas de academia</option>
                     </select>
 
-                <legend>Recomendaria meu serviço para outras pessoas ?</legend>
+                <legend class="legenda">Recomendaria meu serviço para outras pessoas ?</legend>
 
                     <label for="radio-Sim"><input type="radio" name="recomendaçao" value="Sim">Sim</label>
 
                     <label for="radio-Nao"><input type="radio" name="recomendaçao" value="Nao">Não</label>
 
-                <legend>Qual seu tipo de tecido favorito ?</legend>
+                <legend class="legenda">Qual seu tipo de tecido favorito ?</legend>
                     
                     <select>
                         <option>Linho</option>
@@ -63,17 +64,17 @@
                         <option>Moleton</option>
                     </select>
 
-                <legend>O que você mais gostou em nosso serviço</legend>
-                    <label><input type="checkbox" value="atendimento">Atendimento</label>
-                    <label><input type="checkbox" value="detalhamento">Detalhamento do serviço</label>
-                    <label><input type="checkbox" value="eficiencia">Eficiência na entrega</label>
-                    <label><input type="checkbox" value="nada">Nenhuma das alternativas</label>
+                <legend class="legenda">O que você mais gostou em nosso serviço</legend>
+                    <label><input type="checkbox" class="checkbox" value="atendimento">Atendimento</label>
+                    <label><input type="checkbox" class="checkbox" value="detalhamento">Detalhamento do serviço</label>
+                    <label><input type="checkbox" class="checkbox" value="eficiencia">Eficiência na entrega</label>
+                    <label><input type="checkbox" class="checkbox" value="nada">Nenhuma das alternativas</label>
                     
                     
                 <label for="Mensagem" id="mensagem-label">Deixe sua sugestão para sempre melhorarmos nosso atendimento.</label>
-                <textarea cols="70" rows="10" id="Mensagem"></textarea>
+                <br><textarea cols="50" rows="7" class="Mensagem"></textarea><br>
 
-                <input type="submit" value="Enviar Formulário" id="submit">
+                <input type="submit" value="Enviar Formulário" class="submit">
                 
             </form>
         </main>

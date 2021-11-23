@@ -1,4 +1,119 @@
+header{
+    background: #e093b7;
+    padding: 25px 0;
+}
+
+.cabeçalho{
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 3px solid black;
+
+}
+
+.cabeçalho img{
+    width: 128px;
+    height: auto;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 5px 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+form{
+	margin: 80px 0 0 40px;
+   
+    
+
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin:0 0 10px;
 
 
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 15px;
+	width: 30%;
+}
 
 
+.submit{
+	width: 30%;
+	padding: 15px 0;
+	background: rgb(255, 0, 170);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border:none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+    margin: 10px;
+
+}
+
+.submit:hover{
+	background:rgb(51, 255, 0);
+	transform: scale(1.2);
+}
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 30px 0;
+   
+}
+
+footer img{
+	width: 128px;
+	height: auto;
+}
+
+.copyright {
+	color: #eca4e9;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+	.cabeçalho, .submit{ 
+		width: auto;
+
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+}
