@@ -5,3 +5,5 @@ Estruturamos a página por meio de linguagem HTML, adicionamos  os arquivos que 
 
 Dia 2 
 Inserimos a estilização da pagina por meio da linguagem CSS.
+-Estilizamos a página principal.
+-Estilizaçao do formulário.
