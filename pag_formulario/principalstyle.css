@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Oswald', sans-serif;
-	background-color:#e093b7; 
+	background-color: white; 
 }
 
 header{
@@ -48,7 +48,7 @@ nav a:hover{
 }
 
 .banner{
-    width: 80%;
+    width: 50%;
     max-height: 325px;
     display: block;
     margin-left: auto;
