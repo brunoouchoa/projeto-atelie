@@ -7,10 +7,7 @@ header{
     position: relative;
     width: 800px;
     margin: 0 auto;
-    box-sizing: border-box;
-    border: 3px solid black;
-    
-
+   
 }
 
 .cabeçalho img{
