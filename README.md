@@ -9,9 +9,9 @@ A pagina é sobre um ateliê , para confecção de roupas e aluguel de fantasias
 
 #### Características:
 
-1) Na página principal temos a descriçao e cultura organizacional do ateli~e
+1) Na página principal temos a descriçao e cultura organizacional do ateliê.
    
-2) Na segunda pagina temos um modelo de formulário.
+2) Na segunda pagina temos um modelo de formulário para entrar em contato conosco.
 
 3) Na terceira página temos o catálogo de nossas fantasias.
 
