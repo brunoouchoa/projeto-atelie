@@ -11,7 +11,7 @@ header{
     width: 100%;
 }
 
-.cabeçalho{
+.cabecalho{
     position: relative;
     width: 800px;
     margin: 0 auto;
@@ -20,7 +20,7 @@ header{
 
 }
 
-.cabeçalho img{
+.cabecalho img{
     width: 128px;
     height: auto;
 }
@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 section .catalog{
-    width: 100vw;
+    width: 100px;
     padding: 100px;
     
 }
@@ -169,5 +169,23 @@ footer img{
     header{
         margin: 0 auto;
     }
+}
+@media screen and (max-width: 1024px) {
+	.cabecalho, .principal, .serviços .conteudo-beneficios .filter-card{
+		width: 100%;
+
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-itens {
+		width: 100%;
+	}
 }
 
