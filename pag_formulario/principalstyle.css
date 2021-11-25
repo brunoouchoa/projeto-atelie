@@ -13,9 +13,7 @@ header{
     position: relative;
     width: 800px;
     margin: 0 auto;
-    box-sizing: border-box;
-    border: 3px solid black;
-
+    
 }
 
 .cabeçalho img{
@@ -109,7 +107,7 @@ nav a:hover{
  
 
 .itens:before{
-	content: "✫";
+	content: "➢";
 }
 
 footer {
@@ -129,9 +127,9 @@ footer img{
 	margin: 20px 0 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
 	.cabeçalho, .principal, .serviços .conteudo-beneficios{
-		width: auto;
+		width: 100%;
 
 	}
 
