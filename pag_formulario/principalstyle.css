@@ -89,8 +89,9 @@ nav a:hover{
 }
 
 .conteudo-oferecimentos{
-	width: 640px;
+	width: 60%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .lista-itens{
