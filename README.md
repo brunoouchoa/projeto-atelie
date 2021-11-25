@@ -7,3 +7,6 @@ Dia 2
 Inserimos a estilização da pagina por meio da linguagem CSS.
 -Estilização da página principal.
 -Estilizaçao do formulário.
+
+Dia 3 
+Inserimos as fotos das fantasias para o mostruário e estilizamos a pagina do mostruário por meio de CSS.
