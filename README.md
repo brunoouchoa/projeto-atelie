@@ -56,6 +56,8 @@ A pagina é sobre um ateliê , para confecção de roupas e aluguel de fantasias
 
 Bruno Uchôa .
 
+Ps: Esse é o meu primeiro projeto , feito sozinho. Utilizei como inspiração as aulas do Pedro Marins - na plataforma Alura.
+
 
 
 
