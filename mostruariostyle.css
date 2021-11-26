@@ -1,0 +1,190 @@
+html,
+body {
+    width: 100%;
+    overflow-x: auto;
+
+}
+
+header{
+    background: #e093b7;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.cabecalho{
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+
+
+}
+
+.cabecalho img{
+    width: 128px;
+    height: auto;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 5px 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+section .catalog{
+    width: 100px;
+    padding: 100px;
+    
+}
+
+section .filter-card{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.search-input{
+    width: 400px;
+    height: 30px;
+}
+
+.search-button{
+    width: 100px;
+    height: 20px;
+    border: none;
+    margin-left: 20px;
+}
+
+.search-button:hover{
+    color: brown;
+}
+
+.title-wrapper-catalog{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+section .card-wrapper {
+    max-width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+section .card-item {
+    height: 400px;
+    background: #e093b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around 
+}
+
+.card-content{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item{
+    width: 85%;
+}
+
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer img{
+	width: 128px;
+	height: auto;
+}
+
+.copyright {
+	color: #eca4e9;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/* ajustos responsivos */
+
+@media (max-width: 360px) {
+    nav ul li{
+        display: inline-block;
+        margin: auto;
+    }
+
+    section .filter-card{
+        max-width: 700px;
+        min-width: 240px;
+    }
+
+    section .card-wrapper{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    header{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+	.cabecalho, .principal, .serviços .conteudo-beneficios .filter-card{
+		width: 100%;
+
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-itens {
+		width: 100%;
+	}
+}
+
