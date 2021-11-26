@@ -1,26 +1,72 @@
-VISÃO GERAL
-O site ateliê é uma página para venda e aluguel de roupas, nossa especialização são fantasias infantis.
+# Visão geral -  L&J Ateliê
 
-MOTIVAÇÃO
-A cada mês a minha sogra produzia lindas fantasias para a minha filha, que irá completar 1 ano no início de dezembro, sendo assim o intuito dessa página é servir para que minha sogra consiga uma forma de renda extra com sua arte.
-
-Ps: Essa é minha primeira  produçç indpende 
-
-Linguagem utilizada: HTML5 e CSS.
+A pagina é sobre um ateliê , para confecção de roupas e aluguel de fantasias infantis
 
 
-Linha do tempo :
+#### Linguagens utilizadas:
+
+- HTML e CSS
+
+#### Características:
+
+1) Na página principal temos a descriçao e cultura organizacional do ateliê.
+   
+2) Na segunda pagina temos um modelo de formulário para entrar em contato conosco.
+
+3) Na terceira página temos o catálogo de nossas fantasias.
 
 
-Dia 1 
-Estruturei a página com a linguagem HTML5.
+##### Captura de tela:
 
-Dia 2 
-Inseri a estilização da página com linguagem CSS.
--Estilização da página principal.
--Estilizaçao do formulário.
+#####  Design de desktop
 
-Dia 3 
-Inseri as fotos para demonstrar o catálogo e  estilizei a página com grid e utilizei CSS para estilização.
+### Página Principal
+
+![image](https://user-images.githubusercontent.com/93968842/143500619-baece920-8c9c-4486-9bad-d0773de7463b.png)
+![image](https://user-images.githubusercontent.com/93968842/143500656-926dced1-c0af-4b8a-b77a-3cc6abc635e4.png)
+
+### Página Contatos
+
+![image](https://user-images.githubusercontent.com/93968842/143500807-d9d3bd72-e482-4824-8875-7482e05f8e44.png)
+![image](https://user-images.githubusercontent.com/93968842/143500857-a7cf29a9-e1ae-4a32-8d13-da7192b37e6e.png)
+
+### Página Catálogo
+
+![image](https://user-images.githubusercontent.com/93968842/143501061-7644ba95-0e5e-484a-8d66-48928ff0bda3.png)
+![image](https://user-images.githubusercontent.com/93968842/143501117-dfb7ca11-ba7b-46a8-8a25-f79824662b45.png)
+
+#####  Design Responsivo
+
+###  Design móvel
+
+![image](https://user-images.githubusercontent.com/93968842/143501986-8df675ef-b504-41e5-a6ae-7ee580b70dba.png)
+
+
+### Design Tablet
+
+![image](https://user-images.githubusercontent.com/93968842/143502026-afbb85f9-810b-4981-84c5-2547d6853f01.png)
+
+
+#### Construído com
+
+1) Tags HTML
+2) CSS Grid
+
+#### Autor
+
+Bruno Uchôa .
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
